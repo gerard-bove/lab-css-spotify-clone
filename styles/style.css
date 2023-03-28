@@ -6,3 +6,104 @@ Green: #00B172
 White: #FFF
 
 */
+
+nav {
+    margin: 0;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+header div {
+    color:white;
+    position: relative;
+    top: 40px;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div p {
+    margin: 0;
+}
+
+.container-what-spotify div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-what-spotify div div {
+    margin: 10px;
+    width: 160px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-what-spotify div div img {
+    height: 60px;
+    width: fit-content;
+}
+
+.container-what-spotify div div h3 {
+    color: #00B172;
+}
+
+.container-kanye {
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-kanye div {
+    width: 300px;
+    margin: 5px;
+}
+
+.container-kanye div img {
+    width: 200px;
+    margin: 10px;
+}
